@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(217, 235, 220);
+}
+nav{
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+nav > div > a{
+    color:black;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 15px;
+}
+.baccont{
+    width: 2000px;
+    height: 800px;
+    background-color: rgba(60, 71, 221, 0.918);
+    position: absolute;
+    top: -220px;
+    left: -15px;
+    transform: rotate(-2deg);
+    z-index: -1;
+}
+.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
